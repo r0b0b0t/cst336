@@ -21,16 +21,12 @@ nav a:hover {
     transition: .9s;
 }
 
-main {
-    text-align: center;
-}
-
 #me {
-    display: inline-block;
+    float: left;
 }
 
 #welcomeText {
-    display:inline-block;
+    padding-top: 10px;
     text-align: left;
 }
 
@@ -38,7 +34,7 @@ footer {
     clear: left;
 }
 
-#content {
+table {
     margin: 0px auto;
 }
 
@@ -60,9 +56,14 @@ td strong {
 }
 
 ul {
-    padding-left: 200px;
+    width: 50%;
+    margin: auto;
 }
 
 .hobby {
     color: yellow;
+}
+
+#contact {
+    text-align: center;
 }
