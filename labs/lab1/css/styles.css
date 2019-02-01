@@ -22,16 +22,15 @@ nav a:hover {
 }
 
 main {
-    margin: auto;
-    width: 50%;
+    margin: 0 auto;
 }
 
 #me {
-    float: left;
+    display: inline-block;
 }
 
 #welcomeText {
-    float: left;
+    display:inline-block;
     text-align: left;
 }
 
