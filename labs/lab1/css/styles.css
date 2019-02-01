@@ -38,7 +38,7 @@ footer {
     clear: left;
 }
 
-table {
+#content {
     margin: 0px auto;
 }
 
@@ -60,7 +60,6 @@ td strong {
 }
 
 ul {
-   text-align: center;
     padding-left: 200px;
 }
 
