@@ -21,6 +21,10 @@ nav a:hover {
     transition: .9s;
 }
 
+main {
+    width: 50%;
+}
+
 #me {
     float: left;
 }
