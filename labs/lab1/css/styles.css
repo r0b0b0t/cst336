@@ -22,7 +22,8 @@ nav a:hover {
 }
 
 main {
-    margin: 0 auto;
+    margin: auto;
+    width: 50%;
 }
 
 #me {
