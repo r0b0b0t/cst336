@@ -21,10 +21,6 @@ nav a:hover {
     transition: .9s;
 }
 
-figure, div {
-    float: left;
-}
-
 #me {
     float: left;
 }
