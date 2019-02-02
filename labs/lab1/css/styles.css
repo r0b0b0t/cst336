@@ -1,6 +1,7 @@
 body {
-    background-color: black;
-    color: gray;
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #202020;
+    color: #C8C8C8;
 }
 
 header, main, nav, footer {
@@ -12,7 +13,7 @@ nav a {
     padding-bottom: 4px;
     font-size: 1.8em;
     text-decoration: none;
-    color: white;
+    color: #C8C8C8;
 }
 
 nav a:hover {
@@ -21,8 +22,19 @@ nav a:hover {
     transition: .9s;
 }
 
-#me {
+.current {
+    padding: 0;
+    border: 3px #C8C8C8 inset;
+    color: #ffdb58;
+    background-color: #989898;
+}
+
+figure {
     float: left;
+}
+
+#me {
+    border-radius: 35px;
 }
 
 #welcomeText {
@@ -35,7 +47,7 @@ footer {
 }
 
 table {
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
 td {
@@ -44,15 +56,18 @@ td {
 }
 
 td strong {
-    color: orange;
+    color: #bfcc7d;
 }
 
 #table-header {
-    background-color: #351a00;
+    background-color: #4b4b00 ;
 }
 
 .table-row {
-    background-color: #753900;
+    background-color: #483a00
+
+
+;
 }
 
 ul {
@@ -61,7 +76,8 @@ ul {
 }
 
 .hobby {
-    color: yellow;
+    color: #fff5cc
+;
 }
 
 #contact {
