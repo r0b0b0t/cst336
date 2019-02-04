@@ -11,6 +11,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    margin: 0px auto;
 }
 
 .caption {
@@ -19,8 +20,7 @@ body {
     font-family: 'Indie Flower', cursive;
 }
 
-.sesasons:hover {
-    margin: 1px;
+.seasons:hover {
     transform: scale(1.05, 1.05)
 }
 
