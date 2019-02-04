@@ -20,7 +20,7 @@ body {
 }
 
 .sesasons:hover {
-    margin: 5px;
+    margin: 1px;
     transform: scale(1.05, 1.05)
 }
 
