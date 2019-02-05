@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Homework 1: HTML & CSS</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet"> 
+    </head>
+    <body>
+        <div id="topnav">
+            <header>
+                <h1>All About Malware</h1>
+            </header>
+            <nav>
+                <a href="index.html">Overview</a>
+                <a href="spyware.html">Spyware</a>
+                <a id="current" href="worm.html">Worm</a>
+                <a href="trojanhorse.html">Trojan Horse</a>
+            </nav>
+        </div>
+        <hr>
+        <h2>Worm</h2>
+        <main>
+            <h3>Definition</h3>
+            <p class="text-content">
+            <a href="https://en.wikipedia.org/wiki/Computer_worm">A computer worm</a> is 
+            standalone malware that replicates itself to spread to other computers. It generally
+            spreads through computer networks due to security failures on target computers.
+            Worms almost always cause harm on networks, at the very least by consumming bandwidth.
+            In contrast, viruses corrupt/modify files on the targeted computer.</p>
+            <img src="img/creeper.png" alt="Not as quiet as the Creeper program"/>
+            <h3>How It Works</h3>
+            <p class="text-content">Worms are self-propagating that require no input from the targeted computer
+            to initiate. Code attached to the worm that do something else besides spreading the worm
+            are referred to as the "payload". The payload can cause various effects besides spreading the worm,
+            such as installing a backdoor to the targeted computer. A backdoor can allow the computer to be
+            controlled or used in some fashion from unwarranted external sources.</p>     
+            <h3>Security Measures</h3>
+            <p class="text-content">
+            Always practice safe browsing practices. Operating systems should be kept up to date at all times. Unexpected, suspicous emails
+            should not be opened, and any files or programs attached to such emails should not be open or run.</p>
+        </main>
+    </body>
+        <footer>
+            <hr>
+            <br>CST 336 Internet Programming. 2019&copy; Calitis<br/>
+            <br><strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
+            It is used for academic purposes only.
+            <br>
+            <img src="../../img/csumb_logo.png" alt="csumb logo"/>
+            <img src="../../img/buddy_verified.png" alt="buddy verified"/>
+        </footer>
+</html>
