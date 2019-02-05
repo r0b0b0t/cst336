@@ -21,6 +21,7 @@ body {
 }
 
 .seasons:hover {
+    margin: -10px;
     transform: scale(1.05, 1.05)
 }
 

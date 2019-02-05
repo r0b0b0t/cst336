@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <meta charset="utf-8"/>
+        <title>Homework 1: HTML & CSS</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet"> 
     </head>
     <body>
-
+        <div id="topnav">
+            <header>
+                <h1>All About Malware</h1>
+            </header>
+            <nav>
+                <a id="current" href="index.html">Overview</a>
+                <a href="spyware.html">Spyware</a>
+                <a href="worms.html">Worm</a>
+                <a href="trojanhorse.html">Trojan Horse</a>
+            </nav>
+        </div>
+        <hr>
+        <h2>Overview</h2>
+        <main>
+            <h3>First Instance</h3>
+            <p class="text-content">The first instance of a computer worm is considered to be a variation of the
+            <a href="https://en.wikipedia.org/wiki/Creeper_(program)">"Creeper"</a> program,
+            created by Ray Tomlinson. The original iteration moved itself to different computers on the ARPANET.
+            Ray's version, however, copied itself to different computers instead. Both iterations were not malicious
+            in a meaningful manner; the program simply output a message.</p>
+            <blockquote><em>I'm the creeper: catch me if you can!</em></blockquote>
+            <img src="img/creeper.png" alt="Not as quiet as the Creeper program"/>
+            <h3>Types</h3>
+            <p class="text-content">There are <a href="https://www.csoonline.com/article/2615925/security/security-your-quick-guide-to-malware-types.html">
+                many types</a> of malware, all with different ways of damaging a computer or computer network. Here is
+                a basic overview of some types of mawlare not covered on a separate page of this website.</p>     
+            <dl>
+                <dt>Virus</dt>
+                <dd>When executed, inserts its own code into other files, "infecting" them.</dd>
+                <dt>Adware</dt>
+                <dd>Maliciously promotes products through unwarranted pop-ups and hijacking browser searches.</dd>
+                <dt>Ransomware</dt>
+                <dd>Encrypts and holds data hostage until a payment has been mdae.</dd>
+            </dl> 
+            <h3>Security Measures</h3>
+            <p class="text-content"><a href="https://docs.microsoft.com/en-us/previous-versions/tn-archive/dd632948(v=technet.10)">
+            Prevention is always easier than curing.</a> Always be wary of what is being installed; weigh the risks and benefits. Only download
+            from reputable sources, especially if it involves software updates.</p>
+        </main>
     </body>
+        <footer>
+            <hr>
+            <br>CST 336 Internet Programming. 2019&copy; Calitis<br/>
+            <br><strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
+            It is used for academic purposes only.
+            <br>
+            <img src="../../img/csumb_logo.png" alt="csumb logo"/>
+            <img src="../../img/buddy_verified.png" alt="buddy verified"/>
+        </footer>
 </html>

@@ -1,0 +1,77 @@
+body {
+    font-family: 'Kosugi Maru', sans-serif;
+    background-image: url('../img/mosaic.png');
+    color: #c5c1cf ;
+}
+
+main, footer {
+    text-align: center;
+}
+
+#topnav {
+    overflow: hidden;
+}
+
+header {
+    float: left;
+    margin-left: 20px;
+}
+
+nav {
+    float: right;
+    padding: 30px 10px;
+}
+
+nav a {
+    padding: 2px 4px 4px 4px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #C8C8C8;
+}
+
+#current {
+    background-color: blue;
+}
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 1.5em;
+    transition-delay: .1s;
+    transition: .3s;
+}
+
+hr {
+    width: 75%;
+}
+
+main {
+    width: 50%;
+    margin: 0px auto;
+}
+
+main a {
+    text-decoration: none;
+    color: #aa8cc5;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+.text-content {
+    text-indent: 1.5em;
+    text-align: left;
+}
+
+dl {
+    margin-left: 20px;
+    text-align: left;
+}
+
+dt {
+    text-align: left;
+}
