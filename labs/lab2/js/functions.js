@@ -3,7 +3,6 @@
 var randomNumber = Math.floor(Math.random() * 99) +  1;
 var guesses = document.querySelector('#guesses');
 var lastResult = document.querySelector('#lastResult');
-var error = document.querySelector('#error');
 var lowOrHi = document.querySelector('#lowOrHi');
 
 var guessSubmit = document.querySelector('.guessSubmit');
@@ -22,35 +21,33 @@ guessField.focus();
 function checkGuess() {
     var userGuess = $(".guessField").val();
     if(guessCount === 1){
-        guesses.innerHTML = 'Previous guess: ';
+        $(guesses).text('Previous guess: ');
     }
-    guesses.innerHTML += userGuess + ' ';
+    $(guesses).append(userGuess + ' ');
     
     if(userGuess == randomNumber){
-        $( "#lastResult" ).text('Congratulations! You got it right!');
+        $(lastResult).text('Congratulations! You got it right!');
         lastResult.style.backgroundColor = 'green';
-        lowOrHi.innerHTML = '';
+        $(lowOrHi).text('');
         gamesWon++;
         setGameOver();
     } else if (guessCount === 7) {
-        lastResult.innerHTML = 'Sorry, you lost!';
+        $(lastResult).text('Sorry, you lost!');
         gamesLost++;
         setGameOver();
     } else {
         if(userGuess <randomNumber) {
-            lastResult.innerHTML = 'Wrong!';
+            $(lastResult).text('Wrong!');
             lastResult.style.backgroundColor = 'red';
-            lowOrHi.innerHTML = 'Last guess was too low!';
-            error.innerHTML = '';
+            $(lowOrHi).text('Last guess was too low!');
             guessCount++;
         } else if (userGuess > randomNumber && userGuess <= 99) {
-            lastResult.innerHTML = 'Wrong!';
+            $(lastResult).text('Wrong!');
             lastResult.style.backgroundColor = 'red';
-            lowOrHi.innerHTML = "Last guess was too high!";
-            error.innerHTML = '';
+            $(lowOrHi).text("Last guess was too high!");
             guessCount++;
         } else {
-            error.innerHTML = "That's out of bounds!";
+            $(lastResult).text("That's out of bounds!");
         }
     }
     guessField.value = '';
@@ -71,11 +68,11 @@ function setGameOver() {
     guessField.disabled = true;
     guessSubmit.disabled = true;
     resetButton.style.display = 'inline';
-    gameResults.innerHTML += 'Games won: ' + gamesWon + ' Games Lost: ' + gamesLost;
+    $(gameResults).text('Games won: ' + gamesWon + ' Games Lost: ' + gamesLost);
     resetButton.addEventListener('click', resetGame);
 }
 function resetGame() {
-    gameResults.innerHTML = '';
+    $(gameResults).text('');
     
     guessCount = 1;
     
