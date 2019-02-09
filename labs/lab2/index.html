@@ -3,7 +3,7 @@
     <head>
         <title> Guess a Number </title>
         <meta charset="utf-8" />
-        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
         <!--Bootstrap files-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -11,6 +11,7 @@
         
         <!--Custom Styles-->
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
     </head>
     <body>
 
@@ -20,19 +21,20 @@
         
         <div id="directions" class="resultParas">
             Guess a number between 1 and 99 in seven attempts!
-            <br>
+            <br><br>
+            <!-- Random Number: <span id="numberToGuess"></span> -->
             <label for="guessField">Enter a guess: </label>
-            <input type="text" id="guessField" class="guessField">
+            <input type="text" class="guessField">
             <input type="submit" value="Submit guess" class="guessSubmit">
             
-            <br>
+            <br><br>
+            <p id="gameResults"></p>
             <p id="guesses"></p>
             <p id="lastResult"></p>
+            <p id="error"></p>
             <p id="lowOrHi"></p>
-            <button id='resetButton'>Reset</button>
+            <button id='reset'>Reset</button>
         </div>
-        
         <script SRC="js/functions.js"></script>
-        
     </body>
 </html>
