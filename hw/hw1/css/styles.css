@@ -2,6 +2,7 @@ body {
     font-family: 'Kosugi Maru', sans-serif;
     background-image: url('../img/mosaic.png');
     color: #c5c1cf ;
+    text-align: center;
 }
 
 main, footer {
