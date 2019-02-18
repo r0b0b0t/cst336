@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Slot machine</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!--Bootstrap files-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <h1>Slot Machine</h1>
+        <br>
+        
+        <button id="playButton">Play!</button>
+        <div id="slotContainer">
+            <div id="image1"></div>
+            <div id="image2"></div>
+            <div id="image3"></div>
+        </div>
+        
+        <h2 id="jackpot"></h2><br>
+        <h3 id="amountWon"></h3>
+        <h3 id="totalWinnings">Total Winnnings: $0</h3>
+        
+        
+    </body>
+    <script>
+    /* global $ */
+        let imageArray = ["cherry", "grapes", "seven"];
+        let calledIndex = [0, 0, 0];
+        var audio = new Audio('audio/jackpot.m4a');
+        let winnings = 0;
+        
+        
+        
+        $("#playButton").on( "click", function() {
+            $("#jackpot").css("display", "none");
+            $("#amountWon").css("display", "none");
+            
+            calledIndex = [0, 0, 0];
+            let i;
+            for (i = 1; i < 4; i++) { 
+                let randomImg = Math.floor(Math.random() * 3);
+                calledIndex[i-1] = randomImg;
+                $("#image" + i).html("<img src='img/"+imageArray[randomImg]+".png' />");
+            }
+            if(calledIndex[0] == calledIndex[1] && calledIndex[1] ==calledIndex[2]){
+            $("#jackpot").css("display", "inline");
+            $("#amountWon").css("display", "inline");
+            switch (calledIndex[0]) {
+                    case 0:
+                        $("#amountWon").text("You won $100");
+                        winnings += 100;
+                        break;
+                    case 1:
+                        $("#amountWon").text("You won $300");
+                        winnings += 300;
+                        break;
+                    case 2:
+                        $("#jackpot").text("J A CK P O T ! !");
+                        $("#amountWon").text("You won $500");
+                        audio.play();
+                        winnings += 500;
+                        break;
+                    
+                }
+                $("#totalWinnings").text("Total Winnings: $" + winnings);
+            } 
+            else {
+                $("#amountWon").text("Try Again");
+            }
+        });
+    </script>
+</html>
