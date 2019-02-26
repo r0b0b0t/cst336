@@ -8,11 +8,11 @@ var q5 = $("#q5");
 
 
 //Just for reference, not actually using
-var q1_answer = "1";
-var q2_answer = "1";
-var q3_answer = "1";
-var q4_answer = "75";
-var q5_answer = "logarithmically";
+// var q1_answer = "1";
+// var q2_answer = "1";
+// var q3_answer = "1";
+// var q4_answer = "75";
+// var q5_answer = "logarithmically";
 
 var miko_expressions = ["cheery", "understanding", "concerned", "angry"];
 
@@ -57,6 +57,8 @@ $("#submitButton").on( "click", function() {
     let q3_response = q3.val();
     let q4_response = $("#q4").val();
     let q5_response = $("#q5").val();
+    
+    alert(q1_response);
     
     function isFormValid() {
         let isValid = true;
