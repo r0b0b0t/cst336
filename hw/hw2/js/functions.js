@@ -1,11 +1,5 @@
 //Code goes here
 /* global $ */
-var q1 = $('input[name="q1"]:checked');
-var q2 = $('input[name="q2"]:checked');
-var q3 = $('input[name="q3"]:checked');
-var q4 = $("#q4");
-var q5 = $("#q5");
-
 
 //Just for reference, not actually using
 // var q1_answer = "1";
@@ -32,9 +26,9 @@ function setMiko(question_num, question) {
     //Change else if statement structure to make question 5 work
     
     if (val === "linearly") {
-        miko_reactions[question_num] = miko_expressions["angry"];  
+        miko_reactions[question_num] = miko_expressions[3];  
     } else if (val === "logarithmically") {
-        miko_reactions[question_num] = miko_expressions["cheery"];  
+        miko_reactions[question_num] = miko_expressions[0];  
     } else if (val <= 4) {
         miko_reactions[question_num] = miko_expressions[val-1];  
     } else {
@@ -52,13 +46,17 @@ function setMiko(question_num, question) {
 
 
 $("#submitButton").on( "click", function() {
+    let q1 = $('input[name="q1"]:checked');
+    let q2 = $('input[name="q2"]:checked');
+    let q3 = $('input[name="q3"]:checked');
+    let q4 = $("#q4");
+    let q5 = $("#q5");
     let q1_response = q1.val();
     let q2_response = q2.val();
     let q3_response = q3.val();
     let q4_response = $("#q4").val();
     let q5_response = $("#q5").val();
     
-    alert(q1_response);
     
     function isFormValid() {
         let isValid = true;
@@ -93,12 +91,12 @@ $("#submitButton").on( "click", function() {
     
     //Question 1
     setMiko(0, q1);
-    if (q1_response === 3) {
+    if (q1_response == 3) {
         miko_text[0] = "Although earbuds feature a convenient size, they are ultimately a dangerous listening device." + 
         "As the source of sound is closer to the ear, earbuds are 6 to 9 decibels louder than their headphones counterpart." +
         "Regular earbuds also don't block outside sound, leading people to unhealthily bumping up the volume to block annoying sounds.\n" +
         "Don't blame the EarPods; blame the listener's ignorance.";
-    } else if (q1_response === 2) {
+    } else if (q1_response == 2) {
         miko_text[0] = "Headphones are the preferred listening device! And not only because I find them fashionable." +
         "Over-the-ear headphone designs that encompass the ear naturally block out some amount of ambient noise," +
         "enough to allow people to listen to music at comfortable, healthy levels without distraction.";
@@ -109,7 +107,7 @@ $("#submitButton").on( "click", function() {
     
     //Question 2
     setMiko(1, q2);
-    if (q2_response === 3) {
+    if (q2_response == 3) {
         if (q1_response > 1) {
             miko_text[1] = "Headphones or earbuds, you should never play music loud enough to block out your surroundings." +
             "One tip to check if your volume is healthy or not is to hold your headphones/earbuds an arm's length away" +
@@ -120,7 +118,7 @@ $("#submitButton").on( "click", function() {
             miko_text[1] = "You think I would rag on you for not hearing your surroundings with noise-cancelling headphones on?" +
             "That'd make me a hypocrite!";
         }
-    } else if (q2_response === 2) {
+    } else if (q2_response == 2) {
         miko_text[1] = "You have good listening habits if you can still hear your surroundings.\n Or you use earbuds.\n " +
         "Either way, caution should be taken. 'Hearing surroundings' is not equivalent to 'safe listening levels'." + 
         "Ultimately, 'safe levels' varies based on what music you listen to, how loud your surroundings actually are, " +
@@ -157,26 +155,26 @@ $("#submitButton").on( "click", function() {
     //Question 5
     setMiko(4, q5);
     if (q5_response === "linearly") { //Longer than an hour
-        miko_text[2] = "Nope. Safe listening decreases logarithmically as the sound level increases. At 100 dB, the safe listening is about 15 minutes. At 110 dB, the listening " +
+        miko_text[4] = "Nope. Safe listening decreases logarithmically as the sound level increases. At 100 dB, the safe listening is about 15 minutes. At 110 dB, the listening " +
         "decreases to 30 seconds!";
     } else { // Less than an hour
-        miko_text[2] = "You're right! Safe listening decreases logarithmically as the sound level increases. Good job.";
+        miko_text[4] = "You're right! Safe listening decreases logarithmically as the sound level increases. Good job.";
     }
     
     $("#response1").text(miko_text[0]);
-    $("#img1").attr("src","img/" + miko_reactions[0]);
+    $("#img1").attr("src","img/" + miko_reactions[0] +".png");
 
     $("#response2").text(miko_text[1]);
-    $("#img2").attr("src","img/" + miko_reactions[1]);
+    $("#img2").attr("src","img/" + miko_reactions[1] +".png");
     
     $("#response3").text(miko_text[2]);
-    $("#img3").attr("src","img/" + miko_reactions[2]);
+    $("#img3").attr("src","img/" + miko_reactions[2] +".png");
     
     $("#response4").text(miko_text[3]);
-    $("#img4").attr("src","img/" + miko_reactions[3]);
+    $("#img4").attr("src","img/" + miko_reactions[3] +".png");
 
     $("#response5").text(miko_text[4]);
-    $("#img5").attr("src","img/" + miko_reactions[4]);
+    $("#img5").attr("src","img/" + miko_reactions[4] +".png");
     
     $("#responses").css("display", "inline");
     
