@@ -87,7 +87,7 @@ $("#submitButton").on( "click", function() {
         return;
     }
     
-    $("#quiz").css("display", "hide");
+    $("#quiz").css("display", "none");
     
     //Question 1
     setMiko(0, q1);
