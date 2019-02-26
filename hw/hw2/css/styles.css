@@ -1,3 +1,7 @@
+#responses {
+    display: none;
+}
+
 #container {
     display: flex; /* or inline-flex */
     justify-content: center;
@@ -20,6 +24,32 @@
 
 #q5text {
     display: inline;
+}
+
+.talk {
+    display: flex; /* or inline-flex */
+    justify-content: flex-start;
+}
+
+/* Contain demo size */
+.container {
+    width: 400px;
+}
+
+.quote {
+    background-color: #6b936a;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Reset */
+blockquote {
+    padding: 0;
+    margin: 0;
 }
 
 

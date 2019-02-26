@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>God is dead.</title>
+        <title>Check Your Listening!</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
         <!--Bootstrap files-->
@@ -19,26 +19,26 @@
             <div id="quiz">
                 <!-- 1 is best, 3 is worst -->
                 <div class="question">
-                    <h3>Do you use earbuds or headphones?</h3>
+                    <h3 id="q1text">Do you use earbuds or headphones?</h3>
                     <input type = "radio" name="q1" id="Headphones" value="2"><label for="Headphones">Headphones</label><br>
                     <input type = "radio" name="q1" id="Earbuds" value="3"><label for="Earbuds">Earbuds</label><br>
                     <input type = "radio" name="q1" id="Headphones" value="1"><label for="Noise-Cancelling Earbuds/Headphones">Noise-Cancelling Earbuds/Headphones</label>
                 </div>
                 <div class="question">
-                    <h3>How loud do you regularly listen to your music?</h3>
+                    <h3 id="q2text">How loud do you regularly listen to your music?</h3>
                     <input type = "radio" name="q2" id="I can hear someone talking to me." value="1"><label for="I can hear someone talking to me.">I can hear someone talking to me.</label><br>
                     <input type = "radio" name="q2" id="I can somewhat hear my surroundings." value="2"><label for="I can somewhat hear my surroundings.">I can somewhat hear my surroundings.</label><br>
                     <input type = "radio" name="q2" id="I block out my surroundings with music." value="3"><label for="I block out my surroundings with music.">I block out my surroundings with music.</label>
                 </div>
                 <div class="question">
-                    <h3>How long do you listen to music continuously (without breaks)?</h3>
+                    <h3 id="q3text">How long do you listen to music continuously (without breaks)?</h3>
                     <input type = "radio" name="q3" id="30 minutes" value="1"><label for="30 minutes">30 minutes</label><br>
                     <input type = "radio" name="q3" id="1 hour" value="2"><label for="1 hour<">1 hour</label><br>
                     <input type = "radio" name="q3" id="2~ hours" value="3"><label for="2~ hours">2~ hours</label><br>
                     <input type = "radio" name="q3" id="3+ hours" value="4"><label for="3+ hours">3+ hours</label>
                 </div>
                 <div class="question">
-                    <h3>What's the loudest sound level (in dB) you can be safely continuously exposed to?</h3>
+                    <h3 id="q4text">What's the loudest sound level (in dB) you can be safely continuously exposed to?</h3>
                     <input type="number" id="q4" name="q4" min="50" max="130" step="5" value="50">
                 </div>
                 <div class="question">
@@ -52,6 +52,63 @@
                 </div>
                 <br>
                 <button id="submitButton">Submit</button>
+            </div>
+            <div id="responses">
+                <div class="talk">
+                    <div class="container">
+                        <div class="quote-box">
+                            <div class="quote">
+                                <blockquote id="response1">
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="" id="img1">
+                </div>
+                <div class="talk">
+                    <div class="container">
+                        <div class="quote-box">
+                            <div class="quote">
+                                <blockquote id="response2">
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="" id="img3">
+                </div>
+                <div class="talk">
+                    <div class="container">
+                        <div class="quote-box">
+                            <div class="quote">
+                                <blockquote id="response3">
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="" id="img3">
+                </div>
+                <div class="talk">
+                    <div class="container">
+                        <div class="quote-box">
+                            <div class="quote">
+                                <blockquote id="response4">
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="" id="img4">
+                </div>
+                <div class="talk">
+                    <div class="container">
+                        <div class="quote-box">
+                            <div class="quote">
+                                <blockquote id="response5">
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="" id="img5">
+                </div>
             </div>
         </div>
     </body>

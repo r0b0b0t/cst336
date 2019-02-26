@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <h1> Spring Break Shopping  </h1>
+
+    <table>
+    <tr>
+        <th>Product</th>
+        <th>Unit <br> Price</th>
+        <th> Quantity </th>
+        <th>Total</th>
+    </tr>
+    <tr id="tr1">
+        <td>Microfiber Beach Towel</td>
+        <td >$30</td>
+        <td><input id="unit1" type="number" min="0"></td>
+        <td id="unit1price"></td>
+    </tr>
+
+   <tr id="tr2">
+        <td>Sunscreen 100SPF, 120ml</td>
+        <td>$10</td>
+        <td><input type="number" min="0"></td>
+        <td id="unit2price"></td>
+    </tr>    
+    
+    <tr id="tr3">
+        <td>Ipanema Flip-flop Sandals </td>
+        <td>$20</td>
+        <td><input type="number" min="0"></td>
+        <td id="unit3price"></td>
+    </tr>
+
+   <tr>
+        <td>Shipping</td>
+        <td></td>
+        <td></td>
+        <td id="shipping"></td>
+    </tr>    
+        
+    <tr>
+        <td>Subtotal</td>
+        <td></td>
+        <td></td>
+        <td id="subtotal"></td>
+    </tr>             
+        
+    <tr>
+        <td>Tax (10%)</td>
+        <td></td>
+        <td></td>
+        <td id="tax"></td>
+    </tr>
+    
+    <tr>
+        <td>Total</td>
+        <td></td>
+        <td></td>
+        <td id="total"></td>
+    </tr>
+       
+    </table>
+    
+    <h3>Shipping & Handling</h3>
+    <select id="shipping">
+        <option value="">Select one</option>
+        <option>Next-day Delivery</option> <!-- 15.00 -->
+        <option>Three-day Delivery</option> <!-- 10.00 -->
+        <option>Regular (5-8 days)</option> <!-- 5.00 -->
+    </select>
+    <br><br>
+        
+    <span>I accept the terms of this purchase.</span>
+    <br> 
+    
+    <button>"CONFIRM PURCHASE"</button>
+
+</body>
+</html>
