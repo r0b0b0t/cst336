@@ -9,6 +9,10 @@
         $("#state").on("change", function() {
             //alert($("#state").val());
             
+            //username on change
+            // url: myspace url for usernames
+            // if data.available == true, tell if available or not
+            
             $.ajax({
 
                 type: "GET",
@@ -48,6 +52,11 @@
                 success: function(data,status) {
                   alert(data.city);
                   $("#city").html(data.city);
+                  // if data == false
+                  // say it's not found
+                  // else
+                  // change city, latitude, and longitutde
+                  // data.city, so on and so forth
                 
                 },
                 complete: function(data,status) { //optional, used for debugging purposes
@@ -58,6 +67,11 @@
             
             
         });//zipCode
+        
+        //submit on click
+        // if username length less than 4, point it out
+        // if password length less than 6, ^^^^^^^^^^^
+        // if password does not match retype
         
     } ); //document.ready()
     
@@ -79,9 +93,9 @@
         Zip Code: <input type="text" id="zipCode"><br>
         City: <span id="city"></span>
         <br>
-        Latitude: 
+        Latitude: // add spans
         <br>
-        Longitude:
+        Longitude: // add spans
         <br><br>
         State: 
         <select id="state">
