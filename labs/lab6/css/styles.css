@@ -1,0 +1,16 @@
+* {
+    background-color: #F0FFFF;
+}
+
+#wrapper {
+    text-align: center
+}
+
+#search {
+    display: inline-block;
+    text-align: left;
+}
+
+#results {
+    margin-left: 5%;
+}
