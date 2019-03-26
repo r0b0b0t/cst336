@@ -671,3 +671,411 @@
 [26-Mar-2019 07:18:20 UTC] PHP Stack trace:
 [26-Mar-2019 07:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
 [26-Mar-2019 07:18:20 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:20:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:20:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:20:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:20:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:20:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:20:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:20:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:20:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:20:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:20:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:20:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:20:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:20:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:20:30 UTC] PHP Stack trace:
+[26-Mar-2019 07:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:20:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:22:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:22:18 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:18 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:22:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:22:18 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:18 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:22:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:22:18 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:18 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:22:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:22:18 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:18 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:22:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:22:18 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:18 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:22:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:22:18 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:18 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:22:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:22:21 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:21 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:22:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:22:21 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:21 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:22:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:22:21 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:21 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:22:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:22:21 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:21 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:22:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:22:21 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:21 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:22:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:22:21 UTC] PHP Stack trace:
+[26-Mar-2019 07:22:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:22:21 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:23:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:23:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:23:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:23:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:23:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:23:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:23:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:23:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:23:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:23:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:23:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:23:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:23:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:23:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:23:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:25:45 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:25:45 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:45 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:25:45 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:25:45 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:45 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:25:45 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:25:45 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:45 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:25:45 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:25:45 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:45 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:25:45 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:25:45 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:45 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:25:45 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:25:45 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:45 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:25:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:25:47 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:47 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:25:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:25:47 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:47 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:25:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:25:47 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:47 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:25:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:25:47 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:47 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:25:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:25:47 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:47 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:25:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:25:47 UTC] PHP Stack trace:
+[26-Mar-2019 07:25:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:25:47 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:26:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:26:19 UTC] PHP Stack trace:
+[26-Mar-2019 07:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:26:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11

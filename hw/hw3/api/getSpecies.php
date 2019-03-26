@@ -32,8 +32,8 @@ foreach ($array2 as $char) {
 
 $pokedexNum = round($birthNum * $nameNum);
 
-while ($pokedexNum > 721) {
-    $pokedexNum = $pokedexNum % 721;
+while ($pokedexNum > 807) {
+    $pokedexNum = $pokedexNum % 807;
 }
 
 if ($pokedexNum == 0) {

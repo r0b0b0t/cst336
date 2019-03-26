@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Work+Sans" rel="stylesheet"> 
+        
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <script>
@@ -38,9 +40,12 @@
                     }, 
                     success: function(data, status) {
                         //do something with data[0] (pokemon species) and data[1] (pokemon sprite)
-                        $("#species").html(data[0]);
-                        $("#sprite").html("<img src='" + data[1] + "'>");
-                        
+                        $("#species").html(data[0] + "!");
+                        $("#sprite").html("<img src='" + data[1] + "' style=height:200px>");
+
+                    }
+                }); //End of getSpecies
+
                         $.ajax({
                             type: "GET",
                             url: "api/getType.php",
@@ -51,18 +56,15 @@
                             }, 
                             success: function(data, status) {
                                 //do something with data[0] (pokemon primary type) and data[1] (pokemon secondary type)
-                                alert(data);
-                                // if (data[1] != null) {
-                                //     $("#type").html(data[0] + " " + data[1] + " ");
-                                // }
-                                // else {
-                                //     $("#type").html(data[0] + " ");
-                                // }
+                                if (data[1] != null && data[0] != data[1]) {
+                                    $("#type").html(data[0] + "/" + data[1] + " ");
+                                }
+                                else {
+                                    $("#type").html(data[0] + "type ");
+                                }
+                                $("#resultInfo").show();
                             }
                         }); //End of getType
-
-                    }
-                }); //End of getSpecies
                 
             }); //End of submitData
             
@@ -70,12 +72,12 @@
     </script>
     <body>
         <header>
-            <h1>Homework 3</h1>
+            <h1>Secret Pokemon Calculator</h1>
         </header>
         <div id="wrapper">
             <div id="container">
                 <div id="userInfo">
-                    <p>Enter your birthday</p>
+                    <p id="instructions">Enter your birthday</p>
                     Month:
                         <select id="months">
                             <option value="">Select One</option>
