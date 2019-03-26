@@ -35,7 +35,7 @@
                         "priceFrom" : $("[name=priceFrom]").val(),
                         "priceTo" : $("[name=priceTo").val(),
                         "orderBy" : $("[name=orderBy]:checked").val()
-                    },
+                    }, 
                     success: function(data, status) {
                         $("#results").html("<h3> Products Found: </h3>");
                         data.forEach(function(key) {

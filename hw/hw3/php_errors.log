@@ -1,0 +1,673 @@
+[26-Mar-2019 05:20:41 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 05:20:41 UTC] PHP Stack trace:
+[26-Mar-2019 05:20:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 05:20:41 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 05:23:11 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-38/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 05:23:11 UTC] PHP Stack trace:
+[26-Mar-2019 05:23:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 05:23:11 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 05:23:13 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-38/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 05:23:13 UTC] PHP Stack trace:
+[26-Mar-2019 05:23:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 05:23:13 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 05:23:25 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-38/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 05:23:25 UTC] PHP Stack trace:
+[26-Mar-2019 05:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 05:23:25 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 05:24:09 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-358/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 05:24:09 UTC] PHP Stack trace:
+[26-Mar-2019 05:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 05:24:09 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:02:04 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:02:04 UTC] PHP Stack trace:
+[26-Mar-2019 06:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:02:04 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:02:04 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:02:04 UTC] PHP Stack trace:
+[26-Mar-2019 06:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:02:04 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:02:04 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:02:04 UTC] PHP Stack trace:
+[26-Mar-2019 06:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:02:04 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:02:04 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:02:04 UTC] PHP Stack trace:
+[26-Mar-2019 06:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:02:04 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:02:05 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:02:05 UTC] PHP Stack trace:
+[26-Mar-2019 06:02:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:02:05 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:02:05 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:02:05 UTC] PHP Stack trace:
+[26-Mar-2019 06:02:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:02:05 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:02:05 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:02:05 UTC] PHP Stack trace:
+[26-Mar-2019 06:02:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:02:05 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:16 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:16 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:16 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:16 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:16 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:16 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:17 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:17 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:17 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:17 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:17 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:17 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:17 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:17 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:17 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:17 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:17 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:17 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:17 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:17 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:17 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:17 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:17 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:17 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:18 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:18 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:18 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:18 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:18 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:18 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:18 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:18 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:18 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:18 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:18 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:18 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:18 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:18 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:18 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:18 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:18 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:18 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:18 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:18 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:18 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:19 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:19 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:19 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:19 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:19 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:19 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:19 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:19 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:19 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:20 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:20 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:20 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:21 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:21 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:21 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:21 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:21 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:21 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:21 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:21 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:21 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:21 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:21 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:21 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:03:22 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:03:22 UTC] PHP Stack trace:
+[26-Mar-2019 06:03:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:03:22 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:06:37 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:06:37 UTC] PHP Stack trace:
+[26-Mar-2019 06:06:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:06:37 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:06:37 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:06:37 UTC] PHP Stack trace:
+[26-Mar-2019 06:06:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:06:37 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:06:38 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:06:38 UTC] PHP Stack trace:
+[26-Mar-2019 06:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:06:38 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:06:38 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:06:38 UTC] PHP Stack trace:
+[26-Mar-2019 06:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:06:38 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:06:38 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:06:38 UTC] PHP Stack trace:
+[26-Mar-2019 06:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:06:38 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:07:32 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1344/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 21
+[26-Mar-2019 06:07:32 UTC] PHP Stack trace:
+[26-Mar-2019 06:07:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:07:32 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:21
+[26-Mar-2019 06:23:34 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 34
+[26-Mar-2019 06:23:34 UTC] PHP Stack trace:
+[26-Mar-2019 06:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:23:34 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:34
+[26-Mar-2019 06:23:35 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 34
+[26-Mar-2019 06:23:35 UTC] PHP Stack trace:
+[26-Mar-2019 06:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:23:35 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:34
+[26-Mar-2019 06:24:00 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 34
+[26-Mar-2019 06:24:00 UTC] PHP Stack trace:
+[26-Mar-2019 06:24:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:24:00 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:34
+[26-Mar-2019 06:24:02 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 34
+[26-Mar-2019 06:24:02 UTC] PHP Stack trace:
+[26-Mar-2019 06:24:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:24:02 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:34
+[26-Mar-2019 06:24:06 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 34
+[26-Mar-2019 06:24:06 UTC] PHP Stack trace:
+[26-Mar-2019 06:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:24:06 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:34
+[26-Mar-2019 06:24:23 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 34
+[26-Mar-2019 06:24:23 UTC] PHP Stack trace:
+[26-Mar-2019 06:24:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:24:23 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:34
+[26-Mar-2019 06:24:29 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 34
+[26-Mar-2019 06:24:29 UTC] PHP Stack trace:
+[26-Mar-2019 06:24:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:24:29 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:34
+[26-Mar-2019 06:25:41 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 34
+[26-Mar-2019 06:25:41 UTC] PHP Stack trace:
+[26-Mar-2019 06:25:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:25:41 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:34
+[26-Mar-2019 06:25:44 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 34
+[26-Mar-2019 06:25:44 UTC] PHP Stack trace:
+[26-Mar-2019 06:25:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:25:44 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:34
+[26-Mar-2019 06:26:56 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/0/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 36
+[26-Mar-2019 06:26:56 UTC] PHP Stack trace:
+[26-Mar-2019 06:26:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:26:56 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:36
+[26-Mar-2019 06:28:03 UTC] PHP Warning:  file_get_contents(http://pokeapi.co/api/v2/pokemon/-1404/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php on line 36
+[26-Mar-2019 06:28:03 UTC] PHP Stack trace:
+[26-Mar-2019 06:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:0
+[26-Mar-2019 06:28:03 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw3/api/getSpecies.php:36
+[26-Mar-2019 07:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 4
+[26-Mar-2019 07:08:04 UTC] PHP Stack trace:
+[26-Mar-2019 07:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:4
+[26-Mar-2019 07:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 5
+[26-Mar-2019 07:08:04 UTC] PHP Stack trace:
+[26-Mar-2019 07:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:5
+[26-Mar-2019 07:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:08:04 UTC] PHP Stack trace:
+[26-Mar-2019 07:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:08:04 UTC] PHP Stack trace:
+[26-Mar-2019 07:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:08:04 UTC] PHP Stack trace:
+[26-Mar-2019 07:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:08:04 UTC] PHP Stack trace:
+[26-Mar-2019 07:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 12
+[26-Mar-2019 07:08:04 UTC] PHP Stack trace:
+[26-Mar-2019 07:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:12
+[26-Mar-2019 07:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 13
+[26-Mar-2019 07:08:04 UTC] PHP Stack trace:
+[26-Mar-2019 07:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:13
+[26-Mar-2019 07:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 14
+[26-Mar-2019 07:08:04 UTC] PHP Stack trace:
+[26-Mar-2019 07:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:14
+[26-Mar-2019 07:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 15
+[26-Mar-2019 07:08:04 UTC] PHP Stack trace:
+[26-Mar-2019 07:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:15
+[26-Mar-2019 07:09:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 4
+[26-Mar-2019 07:09:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:09:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:4
+[26-Mar-2019 07:09:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 5
+[26-Mar-2019 07:09:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:09:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:5
+[26-Mar-2019 07:09:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:09:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:09:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:09:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:09:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:09:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:09:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:09:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:09:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:09:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:09:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:09:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:09:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 12
+[26-Mar-2019 07:09:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:09:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:12
+[26-Mar-2019 07:09:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 13
+[26-Mar-2019 07:09:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:09:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:13
+[26-Mar-2019 07:09:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 14
+[26-Mar-2019 07:09:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:09:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:14
+[26-Mar-2019 07:09:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 15
+[26-Mar-2019 07:09:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:09:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:15
+[26-Mar-2019 07:10:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 4
+[26-Mar-2019 07:10:34 UTC] PHP Stack trace:
+[26-Mar-2019 07:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:10:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:4
+[26-Mar-2019 07:10:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 5
+[26-Mar-2019 07:10:34 UTC] PHP Stack trace:
+[26-Mar-2019 07:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:10:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:5
+[26-Mar-2019 07:10:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:10:34 UTC] PHP Stack trace:
+[26-Mar-2019 07:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:10:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:10:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:10:34 UTC] PHP Stack trace:
+[26-Mar-2019 07:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:10:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:10:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:10:34 UTC] PHP Stack trace:
+[26-Mar-2019 07:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:10:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:10:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:10:34 UTC] PHP Stack trace:
+[26-Mar-2019 07:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:10:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:10:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 12
+[26-Mar-2019 07:10:34 UTC] PHP Stack trace:
+[26-Mar-2019 07:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:10:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:12
+[26-Mar-2019 07:10:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 13
+[26-Mar-2019 07:10:34 UTC] PHP Stack trace:
+[26-Mar-2019 07:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:10:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:13
+[26-Mar-2019 07:10:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 14
+[26-Mar-2019 07:10:34 UTC] PHP Stack trace:
+[26-Mar-2019 07:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:10:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:14
+[26-Mar-2019 07:10:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 15
+[26-Mar-2019 07:10:34 UTC] PHP Stack trace:
+[26-Mar-2019 07:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:10:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:15
+[26-Mar-2019 07:13:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 4
+[26-Mar-2019 07:13:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:13:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:4
+[26-Mar-2019 07:13:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 5
+[26-Mar-2019 07:13:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:13:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:5
+[26-Mar-2019 07:13:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:13:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:13:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:13:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:13:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:13:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:13:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:13:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:13:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:13:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:13:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:13:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:13:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 12
+[26-Mar-2019 07:13:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:13:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:12
+[26-Mar-2019 07:13:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 13
+[26-Mar-2019 07:13:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:13:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:13
+[26-Mar-2019 07:13:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 14
+[26-Mar-2019 07:13:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:13:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:14
+[26-Mar-2019 07:13:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 15
+[26-Mar-2019 07:13:26 UTC] PHP Stack trace:
+[26-Mar-2019 07:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:13:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:15
+[26-Mar-2019 07:14:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 4
+[26-Mar-2019 07:14:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:4
+[26-Mar-2019 07:14:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 5
+[26-Mar-2019 07:14:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:5
+[26-Mar-2019 07:14:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:14:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:14:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:14:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:14:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:14:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:14:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:14:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:14:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 12
+[26-Mar-2019 07:14:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:12
+[26-Mar-2019 07:14:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 13
+[26-Mar-2019 07:14:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:13
+[26-Mar-2019 07:14:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 14
+[26-Mar-2019 07:14:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:14
+[26-Mar-2019 07:14:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 15
+[26-Mar-2019 07:14:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:15
+[26-Mar-2019 07:14:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 4
+[26-Mar-2019 07:14:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:4
+[26-Mar-2019 07:14:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 5
+[26-Mar-2019 07:14:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:5
+[26-Mar-2019 07:14:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:14:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:14:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:14:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:14:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:14:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:14:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:14:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:14:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 12
+[26-Mar-2019 07:14:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:12
+[26-Mar-2019 07:14:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 13
+[26-Mar-2019 07:14:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:13
+[26-Mar-2019 07:14:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 14
+[26-Mar-2019 07:14:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:14
+[26-Mar-2019 07:14:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 15
+[26-Mar-2019 07:14:28 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:15
+[26-Mar-2019 07:14:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 4
+[26-Mar-2019 07:14:32 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:4
+[26-Mar-2019 07:14:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 5
+[26-Mar-2019 07:14:32 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:5
+[26-Mar-2019 07:14:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:14:32 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:14:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:14:32 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:14:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:14:32 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:14:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:14:32 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:14:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 12
+[26-Mar-2019 07:14:32 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:12
+[26-Mar-2019 07:14:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 13
+[26-Mar-2019 07:14:32 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:13
+[26-Mar-2019 07:14:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 14
+[26-Mar-2019 07:14:32 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:14
+[26-Mar-2019 07:14:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 15
+[26-Mar-2019 07:14:32 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:15
+[26-Mar-2019 07:14:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 4
+[26-Mar-2019 07:14:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:4
+[26-Mar-2019 07:14:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 5
+[26-Mar-2019 07:14:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:5
+[26-Mar-2019 07:14:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:14:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:14:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:14:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:14:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:14:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:14:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:14:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:14:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 12
+[26-Mar-2019 07:14:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:12
+[26-Mar-2019 07:14:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 13
+[26-Mar-2019 07:14:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:13
+[26-Mar-2019 07:14:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 14
+[26-Mar-2019 07:14:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:14
+[26-Mar-2019 07:14:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 15
+[26-Mar-2019 07:14:37 UTC] PHP Stack trace:
+[26-Mar-2019 07:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:14:37 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:15
+[26-Mar-2019 07:16:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 4
+[26-Mar-2019 07:16:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:16:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:4
+[26-Mar-2019 07:16:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 5
+[26-Mar-2019 07:16:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:16:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:5
+[26-Mar-2019 07:16:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:16:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:16:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:16:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:16:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:16:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:16:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:16:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:16:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:16:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:16:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:16:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:16:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 12
+[26-Mar-2019 07:16:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:16:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:12
+[26-Mar-2019 07:16:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 13
+[26-Mar-2019 07:16:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:16:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:13
+[26-Mar-2019 07:16:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 14
+[26-Mar-2019 07:16:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:16:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:14
+[26-Mar-2019 07:16:25 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 15
+[26-Mar-2019 07:16:25 UTC] PHP Stack trace:
+[26-Mar-2019 07:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:16:25 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:15
+[26-Mar-2019 07:17:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:17:56 UTC] PHP Stack trace:
+[26-Mar-2019 07:17:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:17:56 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:17:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:17:56 UTC] PHP Stack trace:
+[26-Mar-2019 07:17:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:17:56 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:17:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:17:56 UTC] PHP Stack trace:
+[26-Mar-2019 07:17:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:17:56 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:17:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:17:56 UTC] PHP Stack trace:
+[26-Mar-2019 07:17:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:17:56 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:17:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:17:56 UTC] PHP Stack trace:
+[26-Mar-2019 07:17:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:17:56 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:17:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:17:56 UTC] PHP Stack trace:
+[26-Mar-2019 07:17:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:17:56 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11
+[26-Mar-2019 07:18:20 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 6
+[26-Mar-2019 07:18:20 UTC] PHP Stack trace:
+[26-Mar-2019 07:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:18:20 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:6
+[26-Mar-2019 07:18:20 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 7
+[26-Mar-2019 07:18:20 UTC] PHP Stack trace:
+[26-Mar-2019 07:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:18:20 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:7
+[26-Mar-2019 07:18:20 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 8
+[26-Mar-2019 07:18:20 UTC] PHP Stack trace:
+[26-Mar-2019 07:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:18:20 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:8
+[26-Mar-2019 07:18:20 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 9
+[26-Mar-2019 07:18:20 UTC] PHP Stack trace:
+[26-Mar-2019 07:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:18:20 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:9
+[26-Mar-2019 07:18:20 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 10
+[26-Mar-2019 07:18:20 UTC] PHP Stack trace:
+[26-Mar-2019 07:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:18:20 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:10
+[26-Mar-2019 07:18:20 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php on line 11
+[26-Mar-2019 07:18:20 UTC] PHP Stack trace:
+[26-Mar-2019 07:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:0
+[26-Mar-2019 07:18:20 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/hw/hw3/api/getType.php:11

@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>Homework 3</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!--Bootstrap files-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <script>
+        /* global $ */
+        function fillSelects() {
+            for (let i = 1; i < 32; i++) {
+                $("#days").append("<option value=" + i + ">" + i + "</option>");
+            }
+            for (let i = 1900; i < 2020; i++) {
+                $("#years").append("<option value=" + i + ">" + i + "</option>");
+            }
+        }
+        
+        $(document).ready(function(){
+            
+            fillSelects();
+            
+            $("#submit").on("click", function(){
+                $.ajax({
+                    type: "GET",
+                    url: "api/getSpecies.php",
+                    dataType: "json",
+                    data: {
+                        "month" : $("#months").val(),
+                        "day" : $("#days").val(),
+                        "year" : $("#years").val(),
+                        "firstName" : $("#fName").val(),
+                        "lastName" : $("#lName").val()
+                    }, 
+                    success: function(data, status) {
+                        //do something with data[0] (pokemon species) and data[1] (pokemon sprite)
+                        $("#species").html(data[0]);
+                        $("#sprite").html("<img src='" + data[1] + "'>");
+                        
+                        $.ajax({
+                            type: "GET",
+                            url: "api/getType.php",
+                            dataType: "json",
+                            data: {
+                                "birthday" : $("#days").val(),
+                                "firstInit" : $("#fName").val(),
+                            }, 
+                            success: function(data, status) {
+                                //do something with data[0] (pokemon primary type) and data[1] (pokemon secondary type)
+                                alert(data);
+                                // if (data[1] != null) {
+                                //     $("#type").html(data[0] + " " + data[1] + " ");
+                                // }
+                                // else {
+                                //     $("#type").html(data[0] + " ");
+                                // }
+                            }
+                        }); //End of getType
+
+                    }
+                }); //End of getSpecies
+                
+            }); //End of submitData
+            
+        }); // End of $(document).ready()
+    </script>
+    <body>
+        <header>
+            <h1>Homework 3</h1>
+        </header>
+        <div id="wrapper">
+            <div id="container">
+                <div id="userInfo">
+                    <p>Enter your birthday</p>
+                    Month:
+                        <select id="months">
+                            <option value="">Select One</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                    <br>
+                    Day: 
+                        <select id="days">
+                            <option value="">Select One</option>
+                        </select>
+                    <br>
+                    Year:
+                        <select id="years">
+                            <option value="">Select One</option>
+                        </select>
+                    <br>
+                    Enter your first name: <input type="text" id="fName"/>
+                               last name:  <input type="text" id="lName"/>
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+            <div id="container">
+                <div id="resultInfo">
+                    <span class="resultText">Your Secret Pokemon is a </span><span class="resultText" id="type"></span><span class="resultText" id="species"></span>
+                    <div id="sprite"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
