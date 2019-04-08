@@ -1,0 +1,36 @@
+[08-Apr-2019 19:26:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'hangman'' in /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/practice/p6/api/get_word_api.php(6): getDatabaseConnection('hangman')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php on line 21
+[08-Apr-2019 19:28:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'hangman'' in /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/practice/p6/api/get_word_api.php(6): getDatabaseConnection('hangman')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php on line 21
+[08-Apr-2019 19:29:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'hangman'' in /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/practice/p6/api/get_word_api.php(6): getDatabaseConnection('hangman')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php on line 21
+[08-Apr-2019 19:29:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'hangman'' in /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/practice/p6/api/get_word_api.php(6): getDatabaseConnection('hangman')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p6/api/dbConnection.php on line 21
+[08-Apr-2019 20:06:35 UTC] PHP Warning:  str_split() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/practice/p6/api/check_word.php on line 16
+[08-Apr-2019 20:06:35 UTC] PHP Stack trace:
+[08-Apr-2019 20:06:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p6/api/check_word.php:0
+[08-Apr-2019 20:06:35 UTC] PHP   2. str_split() /home/ubuntu/workspace/cst336/practice/p6/api/check_word.php:16
+[08-Apr-2019 20:11:49 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/practice/p6/api/check_word.php on line 16
+[08-Apr-2019 20:11:49 UTC] PHP Stack trace:
+[08-Apr-2019 20:11:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p6/api/check_word.php:0
+[08-Apr-2019 20:11:49 UTC] PHP   2. json_decode() /home/ubuntu/workspace/cst336/practice/p6/api/check_word.php:16
+[08-Apr-2019 20:12:13 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/practice/p6/api/check_word.php on line 16
+[08-Apr-2019 20:12:13 UTC] PHP Stack trace:
+[08-Apr-2019 20:12:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p6/api/check_word.php:0
+[08-Apr-2019 20:12:13 UTC] PHP   2. json_decode() /home/ubuntu/workspace/cst336/practice/p6/api/check_word.php:16
