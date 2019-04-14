@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 
 //checks whether user has logged in
@@ -8,6 +8,7 @@ if (!isset($_SESSION['adminName'])) {
     
 }
 
+?>
 
 <!DOCTYPE html>
 <html>

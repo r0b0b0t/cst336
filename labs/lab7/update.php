@@ -14,9 +14,54 @@
                         data.forEach(function(key) {
                             $("#catId").append("<option value=" + key["catId"] + ">" + key["catName"] + "</option>");
                         });
+                        getProductInfo();
                     }
                 }); 
                 
+                
+                 
+            function getProductInfo() {    
+                $.ajax({
+                    type: "GET",
+                    url: "api/getProductInfo.php",
+                    dataType: "json",
+                    data:{"productId": <?=$_GET['productId']?>},
+                    success: function(data, status) {
+                         $("#productName").val(data["productName"]);
+                         $("#productDescription").val(data["productDescription"]);
+                         $("#productPrice").val(data["productPrice"]);
+                         $("#productImage").val(data["productImage"]);
+                         $("#catId").val(data["catId"]).change();
+                    }
+                });
+                
+            }    
+                
+                $(document).ready(function(){  
+                    
+                    $("#submitButton").on("click",function(){
+                        
+                        $.ajax({
+                            type: "GET",
+                            url: "api/updateProductAPI.php",
+                            dataType: "json",
+                            data:{"productId": <?=$_GET['productId']?>,
+                                "productDescription": $("#productDescription").val(),
+                                "productPrice": $("#productPrice").val(),
+                                "productName": $("#productName").val(),
+                                "catId": $("#catId").val(),
+                                "productImage": $("#productImage").val()
+    
+                            },
+                            success: function(data, status) {
+                                //$("#updated").html("Product Updated");
+                            }
+                            
+                        });//end
+                        $("#updated").html("Product Updated");
+                    });
+                    
+                });//documentReady
                 
                 </script>
         
@@ -37,6 +82,8 @@
     </Select><br>
     
     <button id="submitButton">Update Product</button>
+    
+    <span id="updated"></span>
     
     
     

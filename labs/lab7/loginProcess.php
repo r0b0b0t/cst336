@@ -13,14 +13,15 @@ $password = sha1($_POST['password']);
 $sql = "SELECT * FROM om_admin WHERE username = :username AND password = :password";
 
 $namedParameters = array();
-$namedParamters[':username'] = $username;
+$namedParameters[':username'] = $username;
 $namedParameters[':password'] = $password;
+
 
 $stmt = $conn->prepare($sql);
 $stmt->execute($namedParameters);
 $record = $stmt->fetch(PDO::FETCH_ASSOC); //we are expecting ONLY one record, so we use fetch instead of fetchAll
 
-// print_r($record);
+ print_r($namedParameters);
  
  if (empty($record)) {
      
