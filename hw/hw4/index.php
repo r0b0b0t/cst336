@@ -30,7 +30,9 @@
                         $("#cardImgs").html("");
 
                         for (var i = 0; i < 3; i++) {
-                            htmlString += "<img src='" + data[i] + "' style=height:400px>";
+                            if (data[i] != null) {
+                                htmlString += "<img src='" + data[i] + "' style=height:400px>";
+                            }
                         }
                         
                         $("#cardImgs").append(htmlString);
@@ -43,7 +45,8 @@
                                 "searchTerm" : $("#textSearch").val()
                             }, 
                             success: function(data, status) {
-                                //do something with data[0] (pokemon species) and data[1] (pokemon sprite)
+                                $("#searchCount").html("");
+                                $("#searchCount").html("This term has been searched " + data.count + " time(s)!");
                             }
                         }); //End of getSpecies
                     }
@@ -61,6 +64,7 @@
             <button id="submit">Submit</button>
         </div>
         <div class="container">
+            <div id="searchCount"></div>
             <div id="cardImgs"></div>
         </div>
     </body>
