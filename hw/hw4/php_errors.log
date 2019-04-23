@@ -115,3 +115,53 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php(26): PDOStatement->fetch(2)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php on line 26
+[23-Apr-2019 06:42:07 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 06:42:07 UTC] PHP Stack trace:
+[23-Apr-2019 06:42:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 06:42:07 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 06:43:06 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 06:43:06 UTC] PHP Stack trace:
+[23-Apr-2019 06:43:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 06:43:06 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 06:43:09 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 06:43:09 UTC] PHP Stack trace:
+[23-Apr-2019 06:43:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 06:43:09 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 06:44:28 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 06:44:28 UTC] PHP Stack trace:
+[23-Apr-2019 06:44:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 06:44:28 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 06:44:30 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 06:44:30 UTC] PHP Stack trace:
+[23-Apr-2019 06:44:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 06:44:30 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 06:44:31 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 06:44:31 UTC] PHP Stack trace:
+[23-Apr-2019 06:44:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 06:44:31 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 06:44:31 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 06:44:31 UTC] PHP Stack trace:
+[23-Apr-2019 06:44:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 06:44:31 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 06:44:39 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 06:44:39 UTC] PHP Stack trace:
+[23-Apr-2019 06:44:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 06:44:39 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 06:44:45 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 06:44:45 UTC] PHP Stack trace:
+[23-Apr-2019 06:44:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 06:44:45 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 06:46:11 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 06:46:11 UTC] PHP Stack trace:
+[23-Apr-2019 06:46:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 06:46:11 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9

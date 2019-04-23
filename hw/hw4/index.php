@@ -48,6 +48,7 @@
                                 $("#searchCount").html("This term has been searched " + data.count + " time(s)!");
                             }
                         }); //End of getSpecies
+
                     }
                 }); //End of getSpecies
             }); //End of submitData
