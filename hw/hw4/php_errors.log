@@ -1,0 +1,117 @@
+[23-Apr-2019 03:58:15 UTC] PHP Warning:  file_get_contents(0): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 03:58:15 UTC] PHP Stack trace:
+[23-Apr-2019 03:58:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 03:58:15 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 04:10:41 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 04:10:41 UTC] PHP Stack trace:
+[23-Apr-2019 04:10:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 04:10:41 UTC] PHP   2. json_decode() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 04:16:37 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 11
+[23-Apr-2019 04:16:37 UTC] PHP Stack trace:
+[23-Apr-2019 04:16:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 04:16:37 UTC] PHP   2. json_decode() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:11
+[23-Apr-2019 04:16:37 UTC] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 13
+[23-Apr-2019 04:16:37 UTC] PHP Stack trace:
+[23-Apr-2019 04:16:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 04:16:37 UTC] PHP   2. reset() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:13
+[23-Apr-2019 04:18:01 UTC] PHP Warning:  reset() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 11
+[23-Apr-2019 04:18:01 UTC] PHP Stack trace:
+[23-Apr-2019 04:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 04:18:01 UTC] PHP   2. reset() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:11
+[23-Apr-2019 04:27:42 UTC] PHP Fatal error:  Call to undefined function callAPI() in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 11
+[23-Apr-2019 04:27:42 UTC] PHP Stack trace:
+[23-Apr-2019 04:27:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 04:32:44 UTC] PHP Fatal error:  Call to undefined function array_key_first() in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 18
+[23-Apr-2019 04:32:44 UTC] PHP Stack trace:
+[23-Apr-2019 04:32:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 04:38:47 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 37
+[23-Apr-2019 04:38:47 UTC] PHP Stack trace:
+[23-Apr-2019 04:38:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 04:38:47 UTC] PHP   2. shuffle() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:37
+[23-Apr-2019 04:38:47 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 39
+[23-Apr-2019 04:38:47 UTC] PHP Stack trace:
+[23-Apr-2019 04:38:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 04:38:47 UTC] PHP   2. array_slice() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:39
+[23-Apr-2019 04:39:15 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 39
+[23-Apr-2019 04:39:15 UTC] PHP Stack trace:
+[23-Apr-2019 04:39:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 04:39:15 UTC] PHP   2. shuffle() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:39
+[23-Apr-2019 04:39:15 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 41
+[23-Apr-2019 04:39:15 UTC] PHP Stack trace:
+[23-Apr-2019 04:39:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 04:39:15 UTC] PHP   2. array_slice() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:41
+[23-Apr-2019 05:13:38 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 27
+[23-Apr-2019 05:13:38 UTC] PHP Stack trace:
+[23-Apr-2019 05:13:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:13:38 UTC] PHP   2. json_decode() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:27
+[23-Apr-2019 05:20:58 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 05:20:58 UTC] PHP Stack trace:
+[23-Apr-2019 05:20:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:20:58 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 05:21:27 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 05:21:27 UTC] PHP Stack trace:
+[23-Apr-2019 05:21:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:21:27 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 05:25:37 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 05:25:37 UTC] PHP Stack trace:
+[23-Apr-2019 05:25:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:25:37 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 05:25:39 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 05:25:39 UTC] PHP Stack trace:
+[23-Apr-2019 05:25:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:25:39 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 05:26:06 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 05:26:06 UTC] PHP Stack trace:
+[23-Apr-2019 05:26:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:26:06 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 05:26:10 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 05:26:10 UTC] PHP Stack trace:
+[23-Apr-2019 05:26:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:26:10 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 05:26:12 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 05:26:12 UTC] PHP Stack trace:
+[23-Apr-2019 05:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:26:12 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 05:26:41 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 05:26:41 UTC] PHP Stack trace:
+[23-Apr-2019 05:26:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:26:41 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 05:26:42 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 05:26:42 UTC] PHP Stack trace:
+[23-Apr-2019 05:26:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:26:42 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 05:26:42 UTC] PHP Warning:  file_get_contents(https://db.ygoprodeck.com/api/v4/cardinfo.php?fname=dick): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php on line 9
+[23-Apr-2019 05:26:42 UTC] PHP Stack trace:
+[23-Apr-2019 05:26:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:0
+[23-Apr-2019 05:26:42 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/hw/hw4/api/getCards.php:9
+[23-Apr-2019 05:34:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'poll'' in /home/ubuntu/workspace/cst336/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php(4): getDatabaseConnection('poll')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 18
+[23-Apr-2019 05:44:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php(26): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php on line 26
+[23-Apr-2019 05:47:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php(26): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php on line 26
+[23-Apr-2019 05:47:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php(26): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4/api/getSearchInfo.php on line 26
