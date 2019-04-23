@@ -27,28 +27,37 @@
                         var htmlString = "";
                         
                         $("#cardImgs").html("");
+                        
+                        var invalidSearch = true;
 
                         for (var i = 0; i < 3; i++) {
                             if (data[i] != null) {
                                 htmlString += "<img src='" + data[i] + "' style=height:400px>";
+                                invalidSearch = false;
                             }
                         }
                         
                         $("#cardImgs").append(htmlString);
                         
-                        $.ajax({
-                            type: "GET",
-                            url: "api/getSearchInfo.php",
-                            dataType: "json",
-                            data: {
-                                "searchTerm" : $("#textSearch").val()
-                            }, 
-                            success: function(data, status) {
-                                $("#searchCount").html("");
-                                $("#searchCount").html("This term has been searched " + data.count + " time(s)!");
-                            }
-                        }); //End of getSpecies
-
+                        if (!invalidSearch) {
+                            $.ajax({
+                                type: "GET",
+                                url: "api/getSearchInfo.php",
+                                dataType: "json",
+                                data: {
+                                    "searchTerm" : $("#textSearch").val()
+                                }, 
+                                success: function(data, status) {
+                                    $("#searchCount").html("");
+                                    $("#searchCount").html("This term has been searched " + data.count + " time(s)!");
+                                }
+                            }); //End of getSpecies
+                        }
+                        
+                        else {
+                            $("#searchCount").html("");
+                            $("#searchCount").html("Invalid search term!");
+                        }
                     }
                 }); //End of getSpecies
             }); //End of submitData
