@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
-        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Work+Sans" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet"> 
         
         <link rel="stylesheet" href="css/styles.css">
     </head>
@@ -24,7 +24,6 @@
                         "searchTerm" : $("#textSearch").val()
                     }, 
                     success: function(data, status) {
-                        //do something with data[0] (pokemon species) and data[1] (pokemon sprite)
                         var htmlString = "";
                         
                         $("#cardImgs").html("");
@@ -57,15 +56,17 @@
     </script>
     <body>
         <header>
-            <h1>Secret Pokemon Calculator</h1>
+            <h1>Yugioh Card Searcher</h1>
         </header>
-        <div class="container">
-            <span>Enter a search term: </span><input type="text" id="textSearch"/>
-            <button id="submit">Submit</button>
-        </div>
-        <div class="container">
+        <div id="wrapper">
+            <div id="search">
+                <span>Enter a search term: </span><input type="text" id="textSearch"/>
+                <button id="submit">Submit</button>
+            </div>
             <div id="searchCount"></div>
-            <div id="cardImgs"></div>
+            <div id="deck">
+                <div id="cardImgs"></div>
+            </div>
         </div>
     </body>
 </html>

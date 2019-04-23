@@ -1,0 +1,26 @@
+body {
+    background-color: #fbf7f5;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 2em;
+}
+
+header {
+    text-align: center;
+}
+
+#wrapper {
+    text-align: center;
+}
+
+#deck {
+    display: flex;
+    flex-direction: column;
+}
+
+#searchCount {
+    margin-bottom: 30px;
+}
+
+#search {
+    margin-bottom: 20px;
+}
