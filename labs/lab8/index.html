@@ -64,36 +64,34 @@ img {
             
                 $(this).attr("src","img/favorite_on.png");
                 //add image url to database
-                callFavoriteAPI("add",$(this).next().attr("src"));
+                updateFavorites("add",$(this).next().attr("src"));
             } else {
                 
                 $(this).attr("src","img/favorite.png");
                 //remove image url from database
-                callFavoriteAPI("delete",$(this).next().attr("src"));
+                updateFavorites("delete",$(this).next().attr("src"));
                 
             }
             
         });
     
-        
-        function callFavoriteAPI(action, url) {
-            $.ajax({
-            
-                method: "POST",
-                url: "api/favoriteAPI.php",
-                data: { "action": action,
-                        "url": url,
-                        "keyword": $("#keyword").val()
-                },
-                success: function(data,status) {
-                },
-                complete: function(data,status) { //optional, used for debugging purposes
-                    //alert(status);
-                }
-            
-            });//ajax
-            
-        }
+        function updateFavorites(action,favorite) {
+                $.ajax({
+                    type: "get",
+                    url: "api/favoritesAPI.php",
+                    dataType: "json",
+                    data: {
+                      "action": action,
+                      "favorite": favorite,
+                      "keyword": $("#keyword").val()
+                    },
+                    success: function(data, status) {
+                    },
+                    complete: function(data, status) { //optional, used for debugging purposes
+                      //alert(status);
+                    }
+                  });//ajax
+            }
     
         
     });//documentReady
@@ -109,6 +107,9 @@ Keyword: <input type="text" id="keyword"/>
 <br /><br />
 
 <div id="images"></div>
+<form action="viewFavorites.php">
+    <button id="fav_button">View Favorites</button>
+</form>
 
 </body>
 </html>

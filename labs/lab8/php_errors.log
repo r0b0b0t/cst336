@@ -139,3 +139,13 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoriteAPI.php(24): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoriteAPI.php on line 24
+[28-Apr-2019 05:03:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 36
+[28-Apr-2019 05:03:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 36

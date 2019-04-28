@@ -3,6 +3,7 @@
 //https://pixabay.com/api/?key=5589438-47a0bca778bf23fc2e8c5bf3e&image_type=photo&orientation=horizontal&safesearch=true&per_page=100
 
 $keyword = $_GET['keyword'];
+$apikey = getenv('API_KEY');
 
 $curl = curl_init();
       curl_setopt_array($curl, array(
