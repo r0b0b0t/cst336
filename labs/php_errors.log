@@ -16,3 +16,15 @@
 [14-Apr-2019 07:03:35 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 8
 [14-Apr-2019 07:03:35 UTC] PHP Stack trace:
 [14-Apr-2019 07:03:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[05-May-2019 06:17:31 UTC] PHP Fatal error:  Call to undefined function dbConnection() in /home/ubuntu/workspace/cst336/labs/lab9/index.php on line 65
+[05-May-2019 06:17:31 UTC] PHP Stack trace:
+[05-May-2019 06:17:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/index.php:0
+[05-May-2019 06:18:28 UTC] PHP Fatal error:  Call to undefined function dbConnection() in /home/ubuntu/workspace/cst336/labs/lab9/index.php on line 65
+[05-May-2019 06:18:28 UTC] PHP Stack trace:
+[05-May-2019 06:18:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/index.php:0
+[05-May-2019 06:18:38 UTC] PHP Fatal error:  Call to undefined function dbConnection() in /home/ubuntu/workspace/cst336/labs/lab9/index.php on line 65
+[05-May-2019 06:18:38 UTC] PHP Stack trace:
+[05-May-2019 06:18:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/index.php:0
+[05-May-2019 06:18:57 UTC] PHP Fatal error:  Call to undefined function dbConnection() in /home/ubuntu/workspace/cst336/labs/lab9/index.php on line 65
+[05-May-2019 06:18:57 UTC] PHP Stack trace:
+[05-May-2019 06:18:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/index.php:0
